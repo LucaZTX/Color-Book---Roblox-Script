@@ -4,7 +4,7 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 local camera = workspace.CurrentCamera
 local RunService = game:GetService("RunService")
 
-local mapName = "Village By Waterfall"
+local mapName = "Village By Waterfall" -- El nombre se cambia según el mapa
 local defaultColor = Color3.fromRGB(230, 230, 230)
 
 -- Lista de ángulos para escanear todas las partes
