@@ -1,10 +1,11 @@
+----ENTER THE MAP, AFTER THAT CHANGE DE MAP NAME IN THIS CODE (LINE 8) LITERALLY WRITE THE SAME NAME WITH CAPITAL LETTERS AND EVERYTHING
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local VirtualInputManager = game:GetService("VirtualInputManager")
 local camera = workspace.CurrentCamera
 local RunService = game:GetService("RunService")
 
-local mapName = "Village By Waterfall" -- El Nombre se debe cambiar por cada mapa
+local mapName = "Village By Waterfall" -- MAP NAME!!!!!!!!!!!!!!!!!!!!!
 local highlightColor = Color3.fromRGB(255, 0, 0) -- Rojo para resaltar partes no pintadas
 local highlights = {} -- Almacena los highlights creados
 
