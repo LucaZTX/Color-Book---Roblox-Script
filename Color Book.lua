@@ -4,7 +4,7 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 local camera = workspace.CurrentCamera
 local RunService = game:GetService("RunService")
 
-local mapName = "Village By Waterfall"
+local mapName = "Village By Waterfall" -- El Nombre se debe cambiar por cada mapa
 local highlightColor = Color3.fromRGB(255, 0, 0) -- Rojo para resaltar partes no pintadas
 local highlights = {} -- Almacena los highlights creados
 
